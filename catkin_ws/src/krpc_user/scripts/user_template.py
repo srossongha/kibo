@@ -166,6 +166,13 @@ class UserTemplate:
             if not self.__notify_mission_start():
                 return
 
+
+
+
+
+
+
+
             # USER EDIT AREA: define route planning and game-specific flow here.
             # ***********************************************
             checkpoint_target = self.__resolve_first_checkpoint_target()
@@ -173,6 +180,30 @@ class UserTemplate:
                 return
             if not self.__notify_checkpoint_passed(checkpoint_target['checkpoint_id']):
                 return
+
+
+
+            # your gay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             # ***********************************************
 
             if not rospy.is_shutdown():
